@@ -24,6 +24,12 @@
            res.sendfile('./public/views/analysis.html'); // load our public/index.html file
        });
 
+       app.get('/getJSON', function(req, res) {
+          var picksJSON = loadJSONfile("./public/json/picks.json");
+           res.send(picksJSON);
+       });
+
+
        app.get('*', function(req, res) {
            res.sendfile('./public/views/index.html'); // load our public/index.html file
        });
@@ -31,3 +37,20 @@
 
 
    };
+
+   function loadJSONfile (filename, encoding) {
+	try {
+		// default encoding is utf8
+		if (typeof (encoding) == 'undefined') encoding = 'utf8';
+
+		// read file synchroneously
+		var contents = fs.readFileSync(filename, encoding);
+
+		// parse contents as JSON
+		return JSON.parse(contents);
+
+	} catch (err) {
+		// an error occurred
+		throw err;
+	}
+}

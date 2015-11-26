@@ -73,13 +73,13 @@ function gamesOfWeek(gamesElements,weekObj)
 
       obj = gamesElements[i].getElementsByTagName("img")[0].getAttribute("src").split(".png")[0].split("/").pop();
       jsonObj.home = {};
-      jsonObj.home.abbrevTeam = obj;
+      jsonObj.home.abbrevTeam = obj.toUpperCase();
       jsonObj.home.img = gamesElements[i].getElementsByTagName("img")[0].getAttribute("src");
       jsonObj.home.fullTeam = nameTeam(obj);
 
       obj = gamesElements[i].getElementsByTagName("img")[1].getAttribute("src").split(".png")[0].split("/").pop();
       jsonObj.vis = {};
-      jsonObj.vis.abbrevTeam = obj;
+      jsonObj.vis.abbrevTeam = obj.toUpperCase();
       jsonObj.vis.img = gamesElements[i].getElementsByTagName("img")[1].getAttribute("src");
       jsonObj.vis.fullTeam = nameTeam(obj);
 
