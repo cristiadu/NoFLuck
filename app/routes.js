@@ -29,6 +29,23 @@
            res.send(picksJSON);
        });
 
+       app.get('/getJSONAnalysis', function(req, res) {
+          var analysisJSON = loadJSONfile("./public/json/analysis.json");
+           res.send(analysisJSON);
+       });
+
+       app.post('/saveJSONAnalysis', function(req, res) {
+           // save json here
+          fs.writeFile("./public/json/analysis.json", JSON.stringify(req.body.JSONGenerated, null, 4), function(err) {
+              if(err) {
+                console.log(err);
+              } else {
+                console.log("JSON saved to " + "./public/json/analysis.json");
+              }
+          });
+
+          res.send({result:'ok'});
+       });
 
        app.get('*', function(req, res) {
            res.sendfile('./public/views/index.html'); // load our public/index.html file
