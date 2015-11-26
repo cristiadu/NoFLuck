@@ -17,16 +17,17 @@
               }
           });
 
-          res.sendfile('./public/views/index.html'); // load our public/index.html file
+          res.send({result:'ok'});
        });
 
-       // route to handle creating goes here (app.post)
-       // route to handle delete goes here (app.delete)
+       app.get('/viewAnalysis', function(req, res) {
+           res.sendfile('./public/views/analysis.html'); // load our public/index.html file
+       });
 
-       // frontend routes =========================================================
-       // route to handle all angular requests
        app.get('*', function(req, res) {
            res.sendfile('./public/views/index.html'); // load our public/index.html file
        });
+
+
 
    };
