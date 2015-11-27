@@ -1,3 +1,7 @@
 .table-centered-elements td{
   text-align: center;
 }
+
+.centered{
+  padding: 0 auto;
+}

@@ -6,12 +6,13 @@ $(document).ready(function(){
     var weekMin = 52;
     var weekMax = parseInt($("#weekMax").val()) + 51;
     for (weekNumber = weekMin; weekNumber <= weekMax; weekNumber++) {
-        $.ajax({
+        $.ajax({ //90955
               url: "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fgames.espn.go.com%2Fnfl-pigskin-pickem%2F2015%2Fen%2Fscoresheet%3Fperiod%3D"+weekNumber+"%26groupID%3D90955%22&diagnostics=true",
               success: function(data) {
-
+                debugger;
                 // Get Current week from HTML page
                 var optionsWeekDiv = getElementsByAttribute(data.getElementsByTagName("body")[0],"div","class","custom-select")[0];
+
                 var week = getElementsByAttribute(optionsWeekDiv,"option","selected","selected")[0];
                 var jsonObj = {};
                 jsonObj.week = week.innerHTML.split(" ")[1];
