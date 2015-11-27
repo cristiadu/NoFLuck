@@ -117,9 +117,9 @@ function picksOfWeek(playersAndPicks,weekObj)
             pickObj.pickedTeam = "NONE";
 
           if(aux[j].getElementsByTagName("span")[0])
-            pickObj.resultPick = aux[j].getElementsByTagName("span")[0].getAttribute("class");
+            pickObj.resultPick = (aux[j].getElementsByTagName("span")[0].getAttribute("class")=="win")?"win":"loss";
           else
-            pickObj.resultPick = "---";
+            pickObj.resultPick = "loss";
 
           jsonObj.picks.push(pickObj);
       }
