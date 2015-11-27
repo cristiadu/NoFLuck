@@ -3,7 +3,7 @@ $(document).ready(function(){
   var countWeek;
   $("#generateJSON").click(function(){
     countWeek = 0;
-    var weekMin = parseInt($("#weekMin").val()) + 51;
+    var weekMin = 52;
     var weekMax = parseInt($("#weekMax").val()) + 51;
     for (weekNumber = weekMin; weekNumber <= weekMax; weekNumber++) {
         $.ajax({

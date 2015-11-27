@@ -8,12 +8,23 @@
 <script src="js/dataAnalysis.js" type="text/javascript"></script>
 </head>
 <body>
- <h1>No F. Luck</h1>
- <h2>Analysis</h2>
- <button class="btn btn-primary" id="makeAnalysis">Update Analysis File</button>
-
- <button class="btn btn-success" id="showAnalysis">Show Analysis</button>
- <div id="analysis">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-xs-12">
+         <h1>No F. Luck</h1>
+         <h2>Analysis</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-xs-6">
+        <button class="btn btn-primary" id="makeAnalysis">Update Analysis File</button>
+      </div>
+      <div class="col-md-4 col-xs-6">
+         <button class="btn btn-success" id="showAnalysis">Show Analysis</button>
+      </div>
+    </div>
+</div>
+<div id="analysis">
    <h3>Picked and Won</h3>
    <div id="pickWin"></div>
    <h3>Picked and Lost</h3>
@@ -22,6 +33,6 @@
    <div id="pickedAgainstAndWon"></div>
    <h3>Picked against and lost</h3>
    <div id="pickedAgainstAndLost"></div>
- </div>
+</div>
 </body>
 </html>
