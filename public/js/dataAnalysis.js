@@ -8,12 +8,25 @@ $(document).ready(function(){
             success: function(data)
             {
               var matchupsObj = {};
+              var teams = {};
+              var users = [];
               var auxPick;
               var inversePick;
+
+              for(c = 0;c<data[0].games.length;c++)
+              {
+                teams[data[0].games[c].home.abbrevTeam] = data[0].games[c].home;
+                teams[data[0].games[c].vis.abbrevTeam] = data[0].games[c].vis;
+
+              }
+
               for(i = 0; i< data.length;i++)
               {
                 for(j = 0;j < data[i].userPicks.length;j++)
                 {
+                   if(i==0)
+                     users.push(data[i].userPicks[j].user);
+
                    for(k = 0; k < data[i].userPicks[j].picks.length;k++)
                    {
                      auxPick = null;
@@ -93,9 +106,10 @@ $(document).ready(function(){
                 }
               }
 
+              var wholeJSONObj = {'teams': teams,'users': users,'data': matchupsObj};
               $.ajax({
                 url: "/saveJSONAnalysis",
-                data: JSON.stringify({ JSONGenerated: matchupsObj }),
+                data: JSON.stringify({ JSONGenerated: wholeJSONObj }),
                 type: "POST",
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
@@ -115,22 +129,38 @@ $(document).ready(function(){
 
 
     $("#showAnalysis").click(function(){
+      var appendHTML ="";
       $.ajax({
         url: "/getJSONAnalysis",
         type: "GET",
         success: function(data){
-          $("#analysis").append("<table><tr><td>Team</td></tr>");
-          for(i = 0;i< data.length;i++)
-          {
-            if(i==0)
-            {
-              $("#analysis").append("<td>")
-            }
-            for(j = 0; j< data[i].length;j++)
-            {
+          appendHTML += "<table border='1' cellpadding='2'><tr><td>Team</td>";
+          for(i = 0;i< data['users'].length;i++)
+            appendHTML += "<td>"+data['users'][i]+"</td>";
 
+          appendHTML+="</tr>";
+
+          for(i in data['data'])
+          {
+            if(i == "NONE")
+              continue;
+
+              if(!data['teams'][i])
+                alert(i);
+
+              appendHTML+="<tr><td>"+data['teams'][i]+"</td>";
+
+            for(j in data['data'][i])
+            {
+               appendHTML +="<td>"+data['data'][i][j].win+"</td>"
             }
+
+            appendHTML+="</tr>";
           }
+          appendHTML+= "</table>";
+          $("#analysis").html(appendHTML);
+          
+  
         },
         failure: function(errMsg) {
             alert(errMsg);
