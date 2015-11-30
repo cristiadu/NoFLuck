@@ -151,7 +151,7 @@ $(document).ready(function(){
           var sortedPicks = sortObject(data['data']);
           var sortedUsers = sortObject(data['users']);
 
-          var weeksHigh = Math.floor(data['numberOfWeeks']*0.7);
+          var weeksHigh = Math.floor(data['numberOfWeeks']*0.6);
           var weeksMedium = Math.floor(data['numberOfWeeks']*0.4);
           winHTML += "<br/><table class='table table-striped table-bordered table-centered-elements'><tr><td>User</td>";
           lossHTML += "<br/><table class='table table-striped table-bordered table-centered-elements'><tr><td>User</td>";
