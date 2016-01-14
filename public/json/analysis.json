@@ -176,1613 +176,1613 @@
     "data": {
         "DEN": {
             "rodborcat": {
-                "win": 6,
-                "loss": 2,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 2
+                "win": 9,
+                "loss": 3,
+                "pickedAgainstAndWon": 1,
+                "pickedAgainstAndLost": 3
             },
             "hipertales": {
-                "win": 7,
-                "loss": 2,
+                "win": 11,
+                "loss": 4,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 1
             },
             "Cabessa": {
-                "win": 5,
-                "loss": 2,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 0
+                "win": 7,
+                "loss": 3,
+                "pickedAgainstAndWon": 1,
+                "pickedAgainstAndLost": 1
             },
             "gilkfc": {
-                "win": 5,
-                "loss": 2,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 3
+                "win": 7,
+                "loss": 3,
+                "pickedAgainstAndWon": 1,
+                "pickedAgainstAndLost": 5
             },
             "endril.caps": {
-                "win": 6,
-                "loss": 2,
+                "win": 9,
+                "loss": 3,
+                "pickedAgainstAndWon": 1,
+                "pickedAgainstAndLost": 3
+            },
+            "Rondon": {
+                "win": 10,
+                "loss": 4,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 2
             },
-            "Rondon": {
-                "win": 7,
-                "loss": 2,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 1
-            },
             "RodBen": {
-                "win": 7,
-                "loss": 2,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 1
+                "win": 9,
+                "loss": 3,
+                "pickedAgainstAndWon": 1,
+                "pickedAgainstAndLost": 3
             },
             "Fortys 1": {
-                "win": 8,
-                "loss": 1,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 0
+                "win": 10,
+                "loss": 2,
+                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndLost": 2
             },
             "cristiadu": {
-                "win": 7,
-                "loss": 2,
+                "win": 10,
+                "loss": 4,
                 "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndLost": 2
             },
             "Daniel_Alves 1": {
-                "win": 6,
-                "loss": 2,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 1
+                "win": 9,
+                "loss": 3,
+                "pickedAgainstAndWon": 1,
+                "pickedAgainstAndLost": 2
             }
         },
         "KAN": {
             "rodborcat": {
-                "win": 2,
+                "win": 7,
+                "loss": 1,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 4
+            },
+            "hipertales": {
+                "win": 8,
                 "loss": 1,
                 "pickedAgainstAndWon": 4,
                 "pickedAgainstAndLost": 3
             },
-            "hipertales": {
-                "win": 3,
-                "loss": 1,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 2
-            },
             "Cabessa": {
-                "win": 0,
+                "win": 5,
                 "loss": 1,
                 "pickedAgainstAndWon": 3,
                 "pickedAgainstAndLost": 3
             },
             "gilkfc": {
-                "win": 3,
+                "win": 8,
                 "loss": 2,
                 "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndLost": 3
             },
             "endril.caps": {
-                "win": 3,
+                "win": 9,
                 "loss": 1,
                 "pickedAgainstAndWon": 4,
                 "pickedAgainstAndLost": 2
             },
             "Rondon": {
-                "win": 3,
+                "win": 9,
                 "loss": 1,
                 "pickedAgainstAndWon": 4,
                 "pickedAgainstAndLost": 2
             },
             "RodBen": {
-                "win": 0,
+                "win": 5,
                 "loss": 1,
                 "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 5
+                "pickedAgainstAndLost": 6
             },
             "Fortys 1": {
-                "win": 0,
+                "win": 2,
                 "loss": 1,
                 "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 5
+                "pickedAgainstAndLost": 9
             },
             "cristiadu": {
-                "win": 2,
+                "win": 8,
                 "loss": 2,
                 "pickedAgainstAndWon": 3,
                 "pickedAgainstAndLost": 3
             },
             "Daniel_Alves 1": {
-                "win": 2,
+                "win": 7,
                 "loss": 1,
                 "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndLost": 4
             }
         },
         "NYG": {
             "rodborcat": {
-                "win": 4,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
+                "win": 5,
+                "loss": 5,
+                "pickedAgainstAndWon": 5,
                 "pickedAgainstAndLost": 1
             },
             "hipertales": {
-                "win": 5,
-                "loss": 5,
+                "win": 6,
+                "loss": 10,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             },
             "Cabessa": {
-                "win": 1,
-                "loss": 1,
-                "pickedAgainstAndWon": 3,
+                "win": 2,
+                "loss": 2,
+                "pickedAgainstAndWon": 6,
                 "pickedAgainstAndLost": 3
             },
             "gilkfc": {
-                "win": 4,
-                "loss": 5,
-                "pickedAgainstAndWon": 0,
+                "win": 5,
+                "loss": 8,
+                "pickedAgainstAndWon": 2,
                 "pickedAgainstAndLost": 1
             },
             "endril.caps": {
-                "win": 4,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
+                "win": 5,
+                "loss": 5,
+                "pickedAgainstAndWon": 5,
                 "pickedAgainstAndLost": 1
             },
             "Rondon": {
-                "win": 4,
-                "loss": 3,
-                "pickedAgainstAndWon": 2,
+                "win": 5,
+                "loss": 6,
+                "pickedAgainstAndWon": 4,
                 "pickedAgainstAndLost": 1
             },
             "RodBen": {
-                "win": 5,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
+                "win": 6,
+                "loss": 5,
+                "pickedAgainstAndWon": 5,
                 "pickedAgainstAndLost": 0
             },
             "Fortys 1": {
-                "win": 3,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
+                "win": 4,
+                "loss": 5,
+                "pickedAgainstAndWon": 5,
                 "pickedAgainstAndLost": 2
             },
             "cristiadu": {
-                "win": 5,
-                "loss": 3,
-                "pickedAgainstAndWon": 2,
+                "win": 6,
+                "loss": 6,
+                "pickedAgainstAndWon": 4,
                 "pickedAgainstAndLost": 0
             },
             "Daniel_Alves 1": {
                 "win": 4,
-                "loss": 3,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 1
+                "loss": 6,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 2
             }
         },
         "ATL": {
             "rodborcat": {
                 "win": 4,
-                "loss": 4,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 2
+                "loss": 5,
+                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndLost": 4
             },
             "hipertales": {
                 "win": 4,
-                "loss": 4,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 2
+                "loss": 6,
+                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndLost": 4
             },
             "Cabessa": {
                 "win": 4,
                 "loss": 3,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndLost": 2
             },
             "gilkfc": {
                 "win": 4,
-                "loss": 3,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 2
+                "loss": 4,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 4
             },
             "endril.caps": {
-                "win": 4,
-                "loss": 4,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 2
+                "win": 5,
+                "loss": 6,
+                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndLost": 3
             },
             "Rondon": {
-                "win": 4,
-                "loss": 4,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 2
+                "win": 5,
+                "loss": 6,
+                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndLost": 3
             },
             "RodBen": {
-                "win": 5,
-                "loss": 4,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 1
+                "win": 6,
+                "loss": 5,
+                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndLost": 2
             },
             "Fortys 1": {
-                "win": 4,
-                "loss": 2,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 1
+                "win": 5,
+                "loss": 3,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 2
             },
             "cristiadu": {
                 "win": 4,
-                "loss": 4,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 2
+                "loss": 6,
+                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndLost": 4
             },
             "Daniel_Alves 1": {
-                "win": 4,
-                "loss": 3,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 2
+                "win": 5,
+                "loss": 6,
+                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndLost": 3
             }
         },
         "NWE": {
             "rodborcat": {
-                "win": 10,
-                "loss": 0,
+                "win": 12,
+                "loss": 4,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             },
             "hipertales": {
-                "win": 9,
-                "loss": 0,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 1
+                "win": 10,
+                "loss": 3,
+                "pickedAgainstAndWon": 1,
+                "pickedAgainstAndLost": 2
             },
             "Cabessa": {
-                "win": 7,
-                "loss": 0,
+                "win": 9,
+                "loss": 3,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             },
             "gilkfc": {
-                "win": 9,
-                "loss": 0,
+                "win": 11,
+                "loss": 4,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 1
             },
             "endril.caps": {
-                "win": 10,
-                "loss": 0,
+                "win": 12,
+                "loss": 4,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             },
             "Rondon": {
-                "win": 9,
-                "loss": 0,
+                "win": 11,
+                "loss": 4,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             },
             "RodBen": {
-                "win": 9,
-                "loss": 0,
+                "win": 11,
+                "loss": 4,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 1
             },
             "Fortys 1": {
-                "win": 7,
-                "loss": 0,
+                "win": 9,
+                "loss": 4,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 2
             },
             "cristiadu": {
-                "win": 9,
-                "loss": 0,
+                "win": 11,
+                "loss": 4,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             },
             "Daniel_Alves 1": {
-                "win": 9,
-                "loss": 0,
+                "win": 11,
+                "loss": 4,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             }
         },
         "BUF": {
             "rodborcat": {
-                "win": 3,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
+                "win": 4,
+                "loss": 3,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 4
             },
             "hipertales": {
-                "win": 2,
-                "loss": 1,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 3
+                "win": 3,
+                "loss": 3,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 5
             },
             "Cabessa": {
-                "win": 1,
+                "win": 2,
                 "loss": 2,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 3
             },
             "gilkfc": {
-                "win": 3,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
+                "win": 4,
+                "loss": 3,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 4
             },
             "endril.caps": {
-                "win": 2,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 3
+                "win": 3,
+                "loss": 3,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 5
             },
             "Rondon": {
-                "win": 3,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
-            },
-            "RodBen": {
-                "win": 2,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
+                "win": 5,
+                "loss": 3,
+                "pickedAgainstAndWon": 5,
                 "pickedAgainstAndLost": 3
             },
+            "RodBen": {
+                "win": 4,
+                "loss": 2,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 4
+            },
             "Fortys 1": {
-                "win": 5,
-                "loss": 4,
+                "win": 8,
+                "loss": 7,
                 "pickedAgainstAndWon": 1,
                 "pickedAgainstAndLost": 0
             },
             "cristiadu": {
-                "win": 3,
-                "loss": 1,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 2
+                "win": 4,
+                "loss": 2,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 4
             },
             "Daniel_Alves 1": {
-                "win": 2,
+                "win": 4,
                 "loss": 1,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 4
             }
         },
         "ARI": {
             "rodborcat": {
-                "win": 7,
+                "win": 12,
                 "loss": 2,
-                "pickedAgainstAndWon": 0,
+                "pickedAgainstAndWon": 1,
                 "pickedAgainstAndLost": 1
             },
             "hipertales": {
-                "win": 6,
-                "loss": 2,
+                "win": 11,
+                "loss": 3,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 2
             },
             "Cabessa": {
-                "win": 5,
+                "win": 9,
                 "loss": 2,
                 "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndLost": 1
             },
             "gilkfc": {
-                "win": 7,
-                "loss": 2,
+                "win": 12,
+                "loss": 3,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 1
             },
             "endril.caps": {
-                "win": 7,
-                "loss": 2,
+                "win": 12,
+                "loss": 3,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 1
             },
             "Rondon": {
-                "win": 7,
-                "loss": 2,
+                "win": 12,
+                "loss": 3,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 1
             },
             "RodBen": {
-                "win": 7,
+                "win": 12,
                 "loss": 2,
-                "pickedAgainstAndWon": 0,
+                "pickedAgainstAndWon": 1,
                 "pickedAgainstAndLost": 1
             },
             "Fortys 1": {
-                "win": 5,
-                "loss": 1,
+                "win": 9,
+                "loss": 2,
                 "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndLost": 4
             },
             "cristiadu": {
-                "win": 8,
-                "loss": 2,
+                "win": 13,
+                "loss": 3,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             },
             "Daniel_Alves 1": {
-                "win": 6,
-                "loss": 2,
+                "win": 8,
+                "loss": 3,
                 "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndLost": 5
             }
         },
         "CHI": {
             "rodborcat": {
                 "win": 0,
-                "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 5
+                "loss": 5,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 6
             },
             "hipertales": {
                 "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 5
+                "loss": 3,
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 6
             },
             "Cabessa": {
                 "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 4
+                "loss": 3,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 5
             },
             "gilkfc": {
                 "win": 1,
-                "loss": 1,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 4
+                "loss": 3,
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 5
             },
             "endril.caps": {
                 "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 5
+                "loss": 4,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 6
             },
             "Rondon": {
                 "win": 0,
-                "loss": 0,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 5
+                "loss": 2,
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 6
             },
             "RodBen": {
                 "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 5
+                "loss": 2,
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 6
             },
             "Fortys 1": {
                 "win": 2,
-                "loss": 4,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 3
+                "loss": 6,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 4
             },
             "cristiadu": {
                 "win": 0,
-                "loss": 0,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 5
+                "loss": 2,
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 6
             },
             "Daniel_Alves 1": {
                 "win": 0,
-                "loss": 0,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 5
+                "loss": 1,
+                "pickedAgainstAndWon": 9,
+                "pickedAgainstAndLost": 6
             }
         },
         "CIN": {
             "rodborcat": {
-                "win": 7,
+                "win": 11,
                 "loss": 1,
-                "pickedAgainstAndWon": 1,
+                "pickedAgainstAndWon": 3,
                 "pickedAgainstAndLost": 1
             },
             "hipertales": {
-                "win": 7,
-                "loss": 2,
-                "pickedAgainstAndWon": 0,
+                "win": 11,
+                "loss": 3,
+                "pickedAgainstAndWon": 1,
                 "pickedAgainstAndLost": 1
             },
             "Cabessa": {
-                "win": 3,
+                "win": 6,
                 "loss": 1,
-                "pickedAgainstAndWon": 0,
+                "pickedAgainstAndWon": 2,
                 "pickedAgainstAndLost": 3
             },
             "gilkfc": {
-                "win": 5,
-                "loss": 1,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 3
+                "win": 8,
+                "loss": 2,
+                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndLost": 4
             },
             "endril.caps": {
-                "win": 6,
-                "loss": 1,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 2
-            },
-            "Rondon": {
-                "win": 7,
-                "loss": 1,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 1
-            },
-            "RodBen": {
-                "win": 7,
-                "loss": 1,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 1
-            },
-            "Fortys 1": {
-                "win": 6,
-                "loss": 0,
+                "win": 10,
+                "loss": 2,
                 "pickedAgainstAndWon": 2,
                 "pickedAgainstAndLost": 2
             },
-            "cristiadu": {
-                "win": 5,
-                "loss": 1,
+            "Rondon": {
+                "win": 11,
+                "loss": 2,
+                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndLost": 1
+            },
+            "RodBen": {
+                "win": 10,
+                "loss": 3,
                 "pickedAgainstAndWon": 1,
+                "pickedAgainstAndLost": 2
+            },
+            "Fortys 1": {
+                "win": 9,
+                "loss": 1,
+                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndLost": 3
+            },
+            "cristiadu": {
+                "win": 9,
+                "loss": 2,
+                "pickedAgainstAndWon": 2,
                 "pickedAgainstAndLost": 3
             },
             "Daniel_Alves 1": {
-                "win": 7,
-                "loss": 2,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 1
+                "win": 10,
+                "loss": 3,
+                "pickedAgainstAndWon": 1,
+                "pickedAgainstAndLost": 2
             }
         },
         "SDG": {
             "rodborcat": {
                 "win": 2,
                 "loss": 2,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndWon": 10,
+                "pickedAgainstAndLost": 2
             },
             "hipertales": {
                 "win": 2,
                 "loss": 3,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndWon": 9,
+                "pickedAgainstAndLost": 2
             },
             "Cabessa": {
                 "win": 1,
                 "loss": 4,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 2
             },
             "gilkfc": {
                 "win": 1,
                 "loss": 4,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 3
             },
             "endril.caps": {
                 "win": 2,
                 "loss": 5,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 2
             },
             "Rondon": {
                 "win": 2,
                 "loss": 4,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 2
             },
             "RodBen": {
                 "win": 2,
                 "loss": 6,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 2
             },
             "Fortys 1": {
-                "win": 1,
+                "win": 2,
                 "loss": 4,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 2
             },
             "cristiadu": {
-                "win": 2,
+                "win": 3,
                 "loss": 7,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 1
             },
             "Daniel_Alves 1": {
                 "win": 2,
                 "loss": 4,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 2
             }
         },
         "TEN": {
             "rodborcat": {
                 "win": 0,
                 "loss": 2,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 3
             },
             "hipertales": {
                 "win": 0,
                 "loss": 3,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 10,
+                "pickedAgainstAndLost": 3
             },
             "Cabessa": {
                 "win": 0,
                 "loss": 3,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 2
             },
             "gilkfc": {
                 "win": 0,
                 "loss": 3,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 10,
+                "pickedAgainstAndLost": 3
             },
             "endril.caps": {
                 "win": 1,
                 "loss": 2,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 2
             },
             "Rondon": {
                 "win": 0,
                 "loss": 3,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 10,
+                "pickedAgainstAndLost": 3
             },
             "RodBen": {
                 "win": 0,
                 "loss": 3,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 10,
+                "pickedAgainstAndLost": 3
             },
             "Fortys 1": {
-                "win": 1,
-                "loss": 1,
-                "pickedAgainstAndWon": 6,
+                "win": 2,
+                "loss": 2,
+                "pickedAgainstAndWon": 10,
                 "pickedAgainstAndLost": 1
             },
             "cristiadu": {
                 "win": 0,
                 "loss": 2,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 3
             },
             "Daniel_Alves 1": {
                 "win": 1,
-                "loss": 1,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 1
+                "loss": 2,
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 2
             }
         },
         "CLE": {
             "rodborcat": {
                 "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 2
+                "loss": 2,
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 3
             },
             "hipertales": {
                 "win": 0,
                 "loss": 3,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 10,
+                "pickedAgainstAndLost": 3
             },
             "Cabessa": {
                 "win": 0,
                 "loss": 0,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 2
             },
             "gilkfc": {
                 "win": 0,
                 "loss": 1,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 12,
+                "pickedAgainstAndLost": 3
             },
             "endril.caps": {
                 "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 2
+                "loss": 2,
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 3
             },
             "Rondon": {
                 "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 2
+                "loss": 2,
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 3
             },
             "RodBen": {
                 "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 2
+                "loss": 2,
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 3
             },
             "Fortys 1": {
                 "win": 1,
-                "loss": 1,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 1
+                "loss": 2,
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 2
             },
             "cristiadu": {
                 "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 2
+                "loss": 2,
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 3
             },
             "Daniel_Alves 1": {
                 "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 2
+                "loss": 2,
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 3
             }
         },
         "MIN": {
             "rodborcat": {
-                "win": 7,
+                "win": 10,
                 "loss": 0,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 1
             },
             "hipertales": {
-                "win": 5,
-                "loss": 1,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
-            },
-            "Cabessa": {
                 "win": 7,
-                "loss": 0,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 0
-            },
-            "gilkfc": {
-                "win": 5,
                 "loss": 2,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 2
-            },
-            "endril.caps": {
-                "win": 5,
-                "loss": 2,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 2
-            },
-            "Rondon": {
-                "win": 4,
-                "loss": 1,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 3
-            },
-            "RodBen": {
-                "win": 3,
-                "loss": 0,
                 "pickedAgainstAndWon": 3,
                 "pickedAgainstAndLost": 4
             },
-            "Fortys 1": {
-                "win": 2,
+            "Cabessa": {
+                "win": 10,
                 "loss": 1,
                 "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 5
+                "pickedAgainstAndLost": 0
             },
-            "cristiadu": {
-                "win": 5,
-                "loss": 1,
+            "gilkfc": {
+                "win": 9,
+                "loss": 3,
                 "pickedAgainstAndWon": 2,
                 "pickedAgainstAndLost": 2
             },
-            "Daniel_Alves 1": {
-                "win": 4,
-                "loss": 0,
-                "pickedAgainstAndWon": 3,
+            "endril.caps": {
+                "win": 8,
+                "loss": 3,
+                "pickedAgainstAndWon": 2,
                 "pickedAgainstAndLost": 3
+            },
+            "Rondon": {
+                "win": 7,
+                "loss": 2,
+                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndLost": 4
+            },
+            "RodBen": {
+                "win": 6,
+                "loss": 1,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 5
+            },
+            "Fortys 1": {
+                "win": 6,
+                "loss": 2,
+                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndLost": 5
+            },
+            "cristiadu": {
+                "win": 9,
+                "loss": 2,
+                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndLost": 2
+            },
+            "Daniel_Alves 1": {
+                "win": 6,
+                "loss": 1,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 5
             }
         },
         "DET": {
             "rodborcat": {
-                "win": 1,
-                "loss": 0,
+                "win": 2,
+                "loss": 1,
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 5
+            },
+            "hipertales": {
+                "win": 4,
+                "loss": 2,
                 "pickedAgainstAndWon": 7,
                 "pickedAgainstAndLost": 3
             },
-            "hipertales": {
-                "win": 2,
-                "loss": 1,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 2
-            },
             "Cabessa": {
-                "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 3
+                "win": 1,
+                "loss": 2,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 4
             },
             "gilkfc": {
-                "win": 1,
-                "loss": 1,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 3
-            },
-            "endril.caps": {
-                "win": 3,
-                "loss": 1,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 1
-            },
-            "Rondon": {
-                "win": 2,
-                "loss": 1,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 2
-            },
-            "RodBen": {
                 "win": 3,
                 "loss": 3,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 4
+            },
+            "endril.caps": {
+                "win": 4,
+                "loss": 2,
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 3
+            },
+            "Rondon": {
+                "win": 4,
+                "loss": 1,
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 3
+            },
+            "RodBen": {
+                "win": 5,
+                "loss": 5,
                 "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndLost": 2
             },
             "Fortys 1": {
-                "win": 2,
+                "win": 5,
                 "loss": 4,
-                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndWon": 5,
                 "pickedAgainstAndLost": 2
             },
             "cristiadu": {
-                "win": 2,
-                "loss": 1,
-                "pickedAgainstAndWon": 6,
+                "win": 5,
+                "loss": 2,
+                "pickedAgainstAndWon": 7,
                 "pickedAgainstAndLost": 2
             },
             "Daniel_Alves 1": {
-                "win": 2,
-                "loss": 2,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 2
+                "win": 3,
+                "loss": 3,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 4
             }
         },
         "STL": {
             "rodborcat": {
                 "win": 2,
-                "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 2
+                "loss": 3,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 5
             },
             "hipertales": {
                 "win": 2,
-                "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 2
+                "loss": 3,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 5
             },
             "Cabessa": {
                 "win": 2,
                 "loss": 2,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 3
             },
             "gilkfc": {
                 "win": 2,
-                "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 2
+                "loss": 3,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 5
             },
             "endril.caps": {
-                "win": 2,
-                "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 2
+                "win": 3,
+                "loss": 3,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 4
             },
             "Rondon": {
-                "win": 2,
-                "loss": 3,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
+                "win": 4,
+                "loss": 4,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 3
             },
             "RodBen": {
                 "win": 2,
-                "loss": 3,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
+                "loss": 4,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 5
             },
             "Fortys 1": {
-                "win": 1,
-                "loss": 5,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 3
+                "win": 2,
+                "loss": 7,
+                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndLost": 5
             },
             "cristiadu": {
-                "win": 2,
-                "loss": 3,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
+                "win": 3,
+                "loss": 4,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 4
             },
             "Daniel_Alves 1": {
-                "win": 1,
+                "win": 2,
                 "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 5
             }
         },
         "WAS": {
             "rodborcat": {
-                "win": 1,
-                "loss": 0,
+                "win": 4,
+                "loss": 1,
                 "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndLost": 5
             },
             "hipertales": {
                 "win": 0,
                 "loss": 0,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 4
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 9
             },
             "Cabessa": {
-                "win": 0,
-                "loss": 0,
+                "win": 2,
+                "loss": 1,
                 "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 4
+                "pickedAgainstAndLost": 6
             },
             "gilkfc": {
-                "win": 1,
-                "loss": 0,
+                "win": 3,
+                "loss": 1,
                 "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndLost": 6
             },
             "endril.caps": {
-                "win": 1,
-                "loss": 0,
+                "win": 3,
+                "loss": 1,
                 "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndLost": 6
             },
             "Rondon": {
-                "win": 1,
-                "loss": 0,
+                "win": 2,
+                "loss": 1,
                 "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndLost": 7
             },
             "RodBen": {
-                "win": 1,
-                "loss": 0,
+                "win": 5,
+                "loss": 1,
                 "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndLost": 4
             },
             "Fortys 1": {
                 "win": 0,
-                "loss": 0,
+                "loss": 1,
                 "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 4
+                "pickedAgainstAndLost": 9
             },
             "cristiadu": {
-                "win": 0,
-                "loss": 0,
+                "win": 2,
+                "loss": 1,
                 "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 4
+                "pickedAgainstAndLost": 7
             },
             "Daniel_Alves 1": {
-                "win": 1,
+                "win": 3,
                 "loss": 0,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 6
             }
         },
         "NOR": {
             "rodborcat": {
                 "win": 2,
-                "loss": 4,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
+                "loss": 5,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 5
             },
             "hipertales": {
-                "win": 0,
-                "loss": 4,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 4
+                "win": 1,
+                "loss": 5,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 6
             },
             "Cabessa": {
                 "win": 0,
-                "loss": 3,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 4
+                "loss": 5,
+                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndLost": 6
             },
             "gilkfc": {
-                "win": 0,
-                "loss": 4,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 4
+                "win": 1,
+                "loss": 6,
+                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndLost": 6
             },
             "endril.caps": {
-                "win": 3,
-                "loss": 5,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 1
+                "win": 4,
+                "loss": 6,
+                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndLost": 3
             },
             "Rondon": {
-                "win": 0,
-                "loss": 3,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 4
+                "win": 2,
+                "loss": 5,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 5
             },
             "RodBen": {
-                "win": 0,
-                "loss": 3,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 4
+                "win": 1,
+                "loss": 5,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 6
             },
             "Fortys 1": {
                 "win": 1,
                 "loss": 4,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 4
             },
             "cristiadu": {
                 "win": 0,
                 "loss": 4,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 4
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 7
             },
             "Daniel_Alves 1": {
-                "win": 0,
-                "loss": 3,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 4
+                "win": 1,
+                "loss": 4,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 6
             }
         },
         "TAM": {
             "rodborcat": {
-                "win": 1,
-                "loss": 1,
-                "pickedAgainstAndWon": 4,
+                "win": 2,
+                "loss": 5,
+                "pickedAgainstAndWon": 5,
                 "pickedAgainstAndLost": 4
             },
             "hipertales": {
                 "win": 3,
-                "loss": 3,
+                "loss": 6,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 3
+            },
+            "Cabessa": {
+                "win": 2,
+                "loss": 5,
                 "pickedAgainstAndWon": 2,
                 "pickedAgainstAndLost": 2
             },
-            "Cabessa": {
-                "win": 1,
-                "loss": 3,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 2
-            },
             "gilkfc": {
-                "win": 2,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
+                "win": 3,
+                "loss": 6,
+                "pickedAgainstAndWon": 4,
                 "pickedAgainstAndLost": 3
             },
             "endril.caps": {
                 "win": 1,
-                "loss": 0,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 4
+                "loss": 2,
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 5
             },
             "Rondon": {
                 "win": 1,
-                "loss": 1,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 4
+                "loss": 2,
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 5
             },
             "RodBen": {
-                "win": 3,
-                "loss": 3,
-                "pickedAgainstAndWon": 2,
+                "win": 4,
+                "loss": 6,
+                "pickedAgainstAndWon": 4,
                 "pickedAgainstAndLost": 2
             },
             "Fortys 1": {
-                "win": 3,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
+                "win": 4,
+                "loss": 6,
+                "pickedAgainstAndWon": 4,
                 "pickedAgainstAndLost": 2
             },
             "cristiadu": {
                 "win": 1,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 4
+                "loss": 4,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 5
             },
             "Daniel_Alves 1": {
                 "win": 0,
-                "loss": 0,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 5
+                "loss": 2,
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 6
             }
         },
         "PIT": {
             "rodborcat": {
-                "win": 5,
-                "loss": 1,
+                "win": 9,
+                "loss": 3,
                 "pickedAgainstAndWon": 3,
                 "pickedAgainstAndLost": 1
             },
             "hipertales": {
-                "win": 1,
-                "loss": 1,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 5
+                "win": 2,
+                "loss": 2,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 8
             },
             "Cabessa": {
-                "win": 3,
-                "loss": 3,
+                "win": 6,
+                "loss": 5,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 2
             },
             "gilkfc": {
-                "win": 2,
+                "win": 6,
+                "loss": 2,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 4
+            },
+            "endril.caps": {
+                "win": 7,
+                "loss": 4,
+                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndLost": 3
+            },
+            "Rondon": {
+                "win": 7,
+                "loss": 3,
+                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndLost": 3
+            },
+            "RodBen": {
+                "win": 7,
+                "loss": 2,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 3
+            },
+            "Fortys 1": {
+                "win": 6,
                 "loss": 2,
                 "pickedAgainstAndWon": 2,
                 "pickedAgainstAndLost": 4
             },
-            "endril.caps": {
-                "win": 4,
-                "loss": 2,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
-            },
-            "Rondon": {
-                "win": 5,
-                "loss": 2,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 1
-            },
-            "RodBen": {
-                "win": 4,
-                "loss": 1,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
-            },
-            "Fortys 1": {
-                "win": 3,
-                "loss": 1,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 3
-            },
             "cristiadu": {
-                "win": 4,
-                "loss": 1,
+                "win": 6,
+                "loss": 3,
                 "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndLost": 4
             },
             "Daniel_Alves 1": {
-                "win": 3,
-                "loss": 2,
+                "win": 5,
+                "loss": 4,
                 "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndLost": 5
             }
         },
         "SFO": {
             "rodborcat": {
                 "win": 2,
-                "loss": 0,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 1
+                "loss": 1,
+                "pickedAgainstAndWon": 10,
+                "pickedAgainstAndLost": 3
             },
             "hipertales": {
                 "win": 2,
-                "loss": 1,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 1
+                "loss": 2,
+                "pickedAgainstAndWon": 9,
+                "pickedAgainstAndLost": 3
             },
             "Cabessa": {
                 "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 2
+                "loss": 2,
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 3
             },
             "gilkfc": {
                 "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 3
+                "loss": 2,
+                "pickedAgainstAndWon": 9,
+                "pickedAgainstAndLost": 5
             },
             "endril.caps": {
                 "win": 0,
-                "loss": 0,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 3
+                "loss": 1,
+                "pickedAgainstAndWon": 10,
+                "pickedAgainstAndLost": 5
             },
             "Rondon": {
                 "win": 0,
-                "loss": 0,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 3
+                "loss": 1,
+                "pickedAgainstAndWon": 10,
+                "pickedAgainstAndLost": 5
             },
             "RodBen": {
                 "win": 1,
-                "loss": 0,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 2
+                "loss": 2,
+                "pickedAgainstAndWon": 9,
+                "pickedAgainstAndLost": 4
             },
             "Fortys 1": {
                 "win": 1,
-                "loss": 3,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 2
+                "loss": 4,
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 4
             },
             "cristiadu": {
                 "win": 1,
-                "loss": 0,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 2
+                "loss": 1,
+                "pickedAgainstAndWon": 10,
+                "pickedAgainstAndLost": 4
             },
             "Daniel_Alves 1": {
-                "win": 3,
-                "loss": 7,
+                "win": 5,
+                "loss": 11,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             }
         },
         "CAR": {
             "rodborcat": {
-                "win": 9,
-                "loss": 0,
+                "win": 13,
+                "loss": 1,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 2
             },
             "hipertales": {
-                "win": 10,
-                "loss": 0,
+                "win": 13,
+                "loss": 1,
                 "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndLost": 2
             },
             "Cabessa": {
-                "win": 9,
-                "loss": 0,
+                "win": 12,
+                "loss": 1,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             },
             "gilkfc": {
-                "win": 10,
-                "loss": 0,
+                "win": 14,
+                "loss": 1,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 1
             },
             "endril.caps": {
-                "win": 9,
-                "loss": 0,
+                "win": 13,
+                "loss": 1,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 2
             },
             "Rondon": {
-                "win": 9,
-                "loss": 0,
+                "win": 13,
+                "loss": 1,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 2
             },
             "RodBen": {
-                "win": 10,
-                "loss": 0,
+                "win": 14,
+                "loss": 1,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 1
             },
             "cristiadu": {
-                "win": 9,
-                "loss": 0,
+                "win": 13,
+                "loss": 1,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 2
             },
             "Daniel_Alves 1": {
-                "win": 9,
-                "loss": 0,
+                "win": 13,
+                "loss": 1,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 2
             },
             "Fortys 1": {
-                "win": 7,
-                "loss": 0,
+                "win": 11,
+                "loss": 1,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 3
             }
         },
         "HOU": {
             "rodborcat": {
-                "win": 3,
-                "loss": 1,
-                "pickedAgainstAndWon": 4,
+                "win": 7,
+                "loss": 2,
+                "pickedAgainstAndWon": 5,
                 "pickedAgainstAndLost": 2
             },
             "hipertales": {
-                "win": 2,
-                "loss": 0,
+                "win": 6,
+                "loss": 2,
                 "pickedAgainstAndWon": 5,
                 "pickedAgainstAndLost": 3
             },
             "Cabessa": {
-                "win": 0,
-                "loss": 0,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 4
-            },
-            "gilkfc": {
-                "win": 0,
-                "loss": 0,
-                "pickedAgainstAndWon": 5,
+                "win": 2,
+                "loss": 1,
+                "pickedAgainstAndWon": 4,
                 "pickedAgainstAndLost": 5
             },
-            "endril.caps": {
+            "gilkfc": {
                 "win": 3,
-                "loss": 0,
-                "pickedAgainstAndWon": 5,
+                "loss": 1,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 6
+            },
+            "endril.caps": {
+                "win": 7,
+                "loss": 1,
+                "pickedAgainstAndWon": 6,
                 "pickedAgainstAndLost": 2
             },
             "Rondon": {
-                "win": 2,
+                "win": 4,
                 "loss": 0,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 5
             },
             "RodBen": {
-                "win": 1,
+                "win": 3,
                 "loss": 1,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 4
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 6
             },
             "cristiadu": {
-                "win": 3,
-                "loss": 0,
-                "pickedAgainstAndWon": 5,
+                "win": 7,
+                "loss": 1,
+                "pickedAgainstAndWon": 6,
                 "pickedAgainstAndLost": 2
             },
             "Daniel_Alves 1": {
-                "win": 4,
+                "win": 8,
                 "loss": 2,
-                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndWon": 5,
                 "pickedAgainstAndLost": 1
             },
             "Fortys 1": {
-                "win": 3,
+                "win": 6,
                 "loss": 2,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 3
             }
         },
         "BAL": {
             "rodborcat": {
                 "win": 3,
-                "loss": 3,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 0
-            },
-            "hipertales": {
-                "win": 3,
-                "loss": 5,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 0
-            },
-            "Cabessa": {
-                "win": 0,
-                "loss": 3,
-                "pickedAgainstAndWon": 2,
+                "loss": 4,
+                "pickedAgainstAndWon": 7,
                 "pickedAgainstAndLost": 2
             },
+            "hipertales": {
+                "win": 4,
+                "loss": 6,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 1
+            },
+            "Cabessa": {
+                "win": 1,
+                "loss": 3,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 3
+            },
             "gilkfc": {
-                "win": 3,
-                "loss": 7,
+                "win": 5,
+                "loss": 11,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             },
             "endril.caps": {
                 "win": 2,
                 "loss": 4,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 3
             },
             "Rondon": {
                 "win": 0,
                 "loss": 4,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 5
             },
             "RodBen": {
                 "win": 2,
                 "loss": 4,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 3
             },
             "Fortys 1": {
-                "win": 0,
-                "loss": 2,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 2
+                "win": 1,
+                "loss": 5,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 3
             },
             "cristiadu": {
                 "win": 1,
                 "loss": 4,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 4
             },
             "Daniel_Alves 1": {
                 "win": 1,
-                "loss": 3,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 2
+                "loss": 4,
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 4
             }
         },
         "OAK": {
             "rodborcat": {
-                "win": 0,
+                "win": 2,
                 "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 4
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 5
             },
             "hipertales": {
-                "win": 1,
-                "loss": 3,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 3
+                "win": 3,
+                "loss": 4,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 4
             },
             "Cabessa": {
-                "win": 2,
+                "win": 4,
                 "loss": 1,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 3
             },
             "gilkfc": {
-                "win": 2,
+                "win": 4,
                 "loss": 4,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 3
             },
             "endril.caps": {
-                "win": 0,
-                "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 4
-            },
-            "Rondon": {
-                "win": 0,
-                "loss": 3,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 4
-            },
-            "RodBen": {
-                "win": 0,
-                "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 4
-            },
-            "Fortys 1": {
-                "win": 3,
-                "loss": 3,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 1
-            },
-            "cristiadu": {
-                "win": 0,
-                "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 4
-            },
-            "Daniel_Alves 1": {
                 "win": 2,
                 "loss": 2,
-                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 5
+            },
+            "Rondon": {
+                "win": 2,
+                "loss": 3,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 5
+            },
+            "RodBen": {
+                "win": 2,
+                "loss": 3,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 5
+            },
+            "Fortys 1": {
+                "win": 4,
+                "loss": 4,
+                "pickedAgainstAndWon": 5,
                 "pickedAgainstAndLost": 2
+            },
+            "cristiadu": {
+                "win": 2,
+                "loss": 2,
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 5
+            },
+            "Daniel_Alves 1": {
+                "win": 3,
+                "loss": 4,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 4
             }
         },
         "MIA": {
             "rodborcat": {
                 "win": 2,
-                "loss": 1,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 2
+                "loss": 3,
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 4
             },
             "hipertales": {
                 "win": 2,
-                "loss": 3,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
+                "loss": 4,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 4
             },
             "Cabessa": {
-                "win": 1,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
+                "win": 2,
+                "loss": 3,
+                "pickedAgainstAndWon": 6,
                 "pickedAgainstAndLost": 2
             },
             "gilkfc": {
                 "win": 2,
-                "loss": 1,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 2
+                "loss": 3,
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 4
             },
             "endril.caps": {
-                "win": 2,
-                "loss": 3,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
+                "win": 3,
+                "loss": 5,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 3
             },
             "Rondon": {
-                "win": 2,
-                "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 2
-            },
-            "RodBen": {
                 "win": 3,
                 "loss": 4,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 3
+            },
+            "RodBen": {
+                "win": 4,
+                "loss": 6,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 2
             },
             "Fortys 1": {
                 "win": 1,
                 "loss": 1,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 5
             },
             "cristiadu": {
-                "win": 3,
+                "win": 4,
                 "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 2
             },
             "Daniel_Alves 1": {
-                "win": 3,
-                "loss": 3,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 1
+                "win": 4,
+                "loss": 5,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 2
             }
         },
         "JAX": {
             "rodborcat": {
                 "win": 1,
-                "loss": 1,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 3
+                "loss": 5,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 4
             },
             "hipertales": {
                 "win": 1,
-                "loss": 1,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 3
+                "loss": 4,
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 4
             },
             "Cabessa": {
-                "win": 0,
-                "loss": 2,
+                "win": 1,
+                "loss": 6,
                 "pickedAgainstAndWon": 2,
                 "pickedAgainstAndLost": 3
             },
             "gilkfc": {
                 "win": 1,
-                "loss": 1,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 3
+                "loss": 4,
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 4
             },
             "endril.caps": {
                 "win": 1,
-                "loss": 0,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 3
+                "loss": 2,
+                "pickedAgainstAndWon": 9,
+                "pickedAgainstAndLost": 4
             },
             "Rondon": {
                 "win": 1,
-                "loss": 0,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 3
+                "loss": 2,
+                "pickedAgainstAndWon": 9,
+                "pickedAgainstAndLost": 4
             },
             "RodBen": {
                 "win": 0,
-                "loss": 1,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 4
+                "loss": 3,
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 5
             },
             "Fortys 1": {
                 "win": 1,
-                "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 2
+                "loss": 4,
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 3
             },
             "cristiadu": {
-                "win": 1,
-                "loss": 0,
-                "pickedAgainstAndWon": 6,
+                "win": 2,
+                "loss": 4,
+                "pickedAgainstAndWon": 7,
                 "pickedAgainstAndLost": 3
             },
             "Daniel_Alves 1": {
-                "win": 1,
-                "loss": 1,
-                "pickedAgainstAndWon": 5,
+                "win": 2,
+                "loss": 3,
+                "pickedAgainstAndWon": 8,
                 "pickedAgainstAndLost": 3
             }
         },
@@ -1790,436 +1790,406 @@
             "rodborcat": {
                 "win": 3,
                 "loss": 1,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 1
             },
             "hipertales": {
-                "win": 1,
-                "loss": 2,
-                "pickedAgainstAndWon": 6,
+                "win": 2,
+                "loss": 3,
+                "pickedAgainstAndWon": 9,
                 "pickedAgainstAndLost": 2
             },
             "Cabessa": {
                 "win": 1,
                 "loss": 2,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndWon": 8,
+                "pickedAgainstAndLost": 1
             },
             "gilkfc": {
                 "win": 2,
                 "loss": 1,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 2
             },
             "endril.caps": {
                 "win": 2,
                 "loss": 1,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 2
             },
             "Rondon": {
                 "win": 1,
                 "loss": 2,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 10,
+                "pickedAgainstAndLost": 3
             },
             "RodBen": {
                 "win": 2,
                 "loss": 1,
-                "pickedAgainstAndWon": 7,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 11,
+                "pickedAgainstAndLost": 2
             },
             "Fortys 1": {
                 "win": 3,
-                "loss": 2,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 0
+                "loss": 4,
+                "pickedAgainstAndWon": 6,
+                "pickedAgainstAndLost": 1
             },
             "cristiadu": {
                 "win": 1,
                 "loss": 2,
-                "pickedAgainstAndWon": 6,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndWon": 10,
+                "pickedAgainstAndLost": 3
             },
             "Daniel_Alves 1": {
-                "win": 3,
+                "win": 4,
                 "loss": 3,
-                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndWon": 9,
                 "pickedAgainstAndLost": 0
             }
         },
         "PHI": {
             "rodborcat": {
-                "win": 1,
+                "win": 2,
                 "loss": 4,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 5
             },
             "hipertales": {
                 "win": 1,
-                "loss": 3,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 3
+                "loss": 4,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 6
             },
             "Cabessa": {
-                "win": 3,
+                "win": 4,
                 "loss": 3,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 1
             },
             "gilkfc": {
-                "win": 1,
+                "win": 2,
                 "loss": 4,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 5
             },
             "endril.caps": {
-                "win": 1,
+                "win": 2,
                 "loss": 4,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 5
             },
             "Rondon": {
-                "win": 2,
-                "loss": 5,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
+                "win": 3,
+                "loss": 6,
+                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndLost": 4
             },
             "RodBen": {
-                "win": 1,
+                "win": 2,
                 "loss": 2,
-                "pickedAgainstAndWon": 5,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndWon": 7,
+                "pickedAgainstAndLost": 5
             },
             "Fortys 1": {
                 "win": 1,
-                "loss": 3,
-                "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 3
+                "loss": 4,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 6
             },
             "cristiadu": {
                 "win": 2,
-                "loss": 4,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
+                "loss": 5,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 5
             },
             "Daniel_Alves 1": {
-                "win": 2,
-                "loss": 5,
+                "win": 3,
+                "loss": 7,
                 "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndLost": 4
             }
         },
         "SEA": {
             "rodborcat": {
-                "win": 5,
-                "loss": 5,
+                "win": 9,
+                "loss": 6,
                 "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndLost": 1
             },
             "hipertales": {
-                "win": 5,
-                "loss": 1,
+                "win": 8,
+                "loss": 2,
                 "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndLost": 2
             },
             "Cabessa": {
-                "win": 4,
-                "loss": 0,
+                "win": 6,
+                "loss": 1,
                 "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndLost": 2
             },
             "gilkfc": {
-                "win": 5,
-                "loss": 2,
+                "win": 7,
+                "loss": 3,
                 "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndLost": 3
             },
             "endril.caps": {
-                "win": 5,
-                "loss": 2,
+                "win": 7,
+                "loss": 3,
                 "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndLost": 3
             },
             "Rondon": {
-                "win": 5,
-                "loss": 4,
+                "win": 8,
+                "loss": 5,
                 "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndLost": 2
             },
             "RodBen": {
-                "win": 5,
-                "loss": 2,
+                "win": 9,
+                "loss": 3,
                 "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndLost": 1
             },
             "Fortys 1": {
-                "win": 3,
-                "loss": 5,
+                "win": 6,
+                "loss": 6,
                 "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndLost": 4
             },
             "cristiadu": {
-                "win": 5,
-                "loss": 3,
+                "win": 7,
+                "loss": 4,
                 "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 0
+                "pickedAgainstAndLost": 3
             },
             "Daniel_Alves 1": {
-                "win": 3,
-                "loss": 3,
+                "win": 4,
+                "loss": 4,
                 "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndLost": 6
             }
         },
         "GNB": {
             "rodborcat": {
-                "win": 6,
-                "loss": 4,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 1
-            },
-            "hipertales": {
-                "win": 6,
-                "loss": 3,
+                "win": 9,
+                "loss": 5,
                 "pickedAgainstAndWon": 1,
                 "pickedAgainstAndLost": 1
             },
+            "hipertales": {
+                "win": 9,
+                "loss": 4,
+                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndLost": 1
+            },
             "Cabessa": {
-                "win": 4,
-                "loss": 2,
+                "win": 7,
+                "loss": 3,
                 "pickedAgainstAndWon": 2,
                 "pickedAgainstAndLost": 0
             },
             "gilkfc": {
-                "win": 6,
+                "win": 8,
                 "loss": 3,
-                "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndLost": 2
             },
             "endril.caps": {
-                "win": 6,
-                "loss": 4,
-                "pickedAgainstAndWon": 0,
+                "win": 9,
+                "loss": 5,
+                "pickedAgainstAndWon": 1,
                 "pickedAgainstAndLost": 1
             },
             "Rondon": {
-                "win": 7,
-                "loss": 4,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 0
-            },
-            "RodBen": {
-                "win": 7,
-                "loss": 3,
+                "win": 10,
+                "loss": 5,
                 "pickedAgainstAndWon": 1,
                 "pickedAgainstAndLost": 0
             },
-            "Fortys 1": {
-                "win": 4,
-                "loss": 2,
+            "RodBen": {
+                "win": 9,
+                "loss": 4,
                 "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndLost": 1
+            },
+            "Fortys 1": {
+                "win": 6,
+                "loss": 2,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 4
             },
             "cristiadu": {
-                "win": 6,
+                "win": 9,
                 "loss": 4,
-                "pickedAgainstAndWon": 0,
+                "pickedAgainstAndWon": 2,
                 "pickedAgainstAndLost": 1
             },
             "Daniel_Alves 1": {
-                "win": 5,
-                "loss": 4,
+                "win": 7,
+                "loss": 6,
                 "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndLost": 3
             }
         },
         "IND": {
             "rodborcat": {
-                "win": 3,
-                "loss": 3,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
+                "win": 4,
+                "loss": 4,
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 4
             },
             "hipertales": {
-                "win": 2,
-                "loss": 3,
-                "pickedAgainstAndWon": 2,
+                "win": 5,
+                "loss": 5,
+                "pickedAgainstAndWon": 3,
                 "pickedAgainstAndLost": 3
             },
             "Cabessa": {
-                "win": 2,
+                "win": 4,
                 "loss": 2,
-                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndWon": 5,
                 "pickedAgainstAndLost": 1
             },
             "gilkfc": {
-                "win": 4,
-                "loss": 2,
+                "win": 5,
+                "loss": 3,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 3
+            },
+            "endril.caps": {
+                "win": 5,
+                "loss": 3,
+                "pickedAgainstAndWon": 5,
+                "pickedAgainstAndLost": 3
+            },
+            "Rondon": {
+                "win": 5,
+                "loss": 5,
+                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndLost": 3
+            },
+            "RodBen": {
+                "win": 5,
+                "loss": 5,
+                "pickedAgainstAndWon": 3,
+                "pickedAgainstAndLost": 3
+            },
+            "Fortys 1": {
+                "win": 7,
+                "loss": 5,
                 "pickedAgainstAndWon": 3,
                 "pickedAgainstAndLost": 1
             },
-            "endril.caps": {
-                "win": 3,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
-            },
-            "Rondon": {
-                "win": 3,
-                "loss": 3,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
-            },
-            "RodBen": {
-                "win": 3,
-                "loss": 3,
-                "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 2
-            },
-            "Fortys 1": {
-                "win": 5,
-                "loss": 2,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 0
-            },
             "cristiadu": {
-                "win": 3,
+                "win": 6,
                 "loss": 3,
-                "pickedAgainstAndWon": 2,
+                "pickedAgainstAndWon": 5,
                 "pickedAgainstAndLost": 2
             },
             "Daniel_Alves 1": {
-                "win": 3,
-                "loss": 3,
-                "pickedAgainstAndWon": 2,
+                "win": 6,
+                "loss": 4,
+                "pickedAgainstAndWon": 4,
                 "pickedAgainstAndLost": 2
             }
         },
         "NYJ": {
             "rodborcat": {
-                "win": 4,
-                "loss": 3,
+                "win": 7,
+                "loss": 4,
                 "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndLost": 3
             },
             "hipertales": {
-                "win": 3,
-                "loss": 2,
+                "win": 6,
+                "loss": 3,
                 "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndLost": 4
             },
             "Cabessa": {
-                "win": 2,
+                "win": 6,
                 "loss": 1,
                 "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndLost": 3
             },
             "gilkfc": {
-                "win": 4,
-                "loss": 3,
+                "win": 7,
+                "loss": 4,
                 "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndLost": 3
             },
             "endril.caps": {
-                "win": 4,
-                "loss": 4,
+                "win": 7,
+                "loss": 5,
                 "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndLost": 3
             },
             "Rondon": {
-                "win": 4,
-                "loss": 4,
+                "win": 7,
+                "loss": 5,
                 "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndLost": 3
             },
             "RodBen": {
-                "win": 3,
-                "loss": 4,
+                "win": 6,
+                "loss": 5,
                 "pickedAgainstAndWon": 1,
-                "pickedAgainstAndLost": 2
+                "pickedAgainstAndLost": 4
             },
             "Fortys 1": {
-                "win": 1,
+                "win": 3,
                 "loss": 2,
-                "pickedAgainstAndWon": 3,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndWon": 4,
+                "pickedAgainstAndLost": 6
             },
             "cristiadu": {
-                "win": 4,
-                "loss": 3,
+                "win": 7,
+                "loss": 4,
                 "pickedAgainstAndWon": 2,
-                "pickedAgainstAndLost": 1
+                "pickedAgainstAndLost": 3
             },
             "Daniel_Alves 1": {
-                "win": 2,
-                "loss": 1,
+                "win": 5,
+                "loss": 2,
                 "pickedAgainstAndWon": 4,
-                "pickedAgainstAndLost": 3
+                "pickedAgainstAndLost": 5
             }
         },
         "NONE": {
             "Fortys 1": {
                 "win": 0,
-                "loss": 21,
+                "loss": 9,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             },
             "Daniel_Alves 1": {
                 "win": 0,
-                "loss": 15,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 0
-            },
-            "cristiadu": {
-                "win": 0,
-                "loss": 14,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 0
-            },
-            "Rondon": {
-                "win": 0,
-                "loss": 14,
+                "loss": 2,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             },
             "Cabessa": {
                 "win": 0,
-                "loss": 57,
+                "loss": 61,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             },
-            "gilkfc": {
+            "cristiadu": {
                 "win": 0,
-                "loss": 13,
+                "loss": 1,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             },
-            "rodborcat": {
+            "Rondon": {
                 "win": 0,
-                "loss": 13,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 0
-            },
-            "hipertales": {
-                "win": 0,
-                "loss": 13,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 0
-            },
-            "endril.caps": {
-                "win": 0,
-                "loss": 13,
-                "pickedAgainstAndWon": 0,
-                "pickedAgainstAndLost": 0
-            },
-            "RodBen": {
-                "win": 0,
-                "loss": 13,
+                "loss": 1,
                 "pickedAgainstAndWon": 0,
                 "pickedAgainstAndLost": 0
             }
         }
     },
-    "numberOfWeeks": 12
+    "numberOfWeeks": 17
 }

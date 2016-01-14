@@ -143,6 +143,7 @@ $(document).ready(function(){
       var lossHTML ="";
       var againstWinHTML ="";
       var againstLossHTML ="";
+      var effectiveHTML = "";
       $.ajax({
         url: "/getJSONAnalysis",
         type: "GET",
@@ -150,9 +151,11 @@ $(document).ready(function(){
           var sortedTeams = sortObject(data['teams']);
           var sortedPicks = sortObject(data['data']);
           var sortedUsers = sortObject(data['users']);
-
-          var weeksHigh = Math.floor(data['numberOfWeeks']*0.6);
-          var weeksMedium = Math.floor(data['numberOfWeeks']*0.4);
+          var percentageEffective = 0;
+          var allGames = 0;
+          var weeksHigh = Math.floor((data['numberOfWeeks']-1)*0.7);
+          var weeksMedium = Math.floor((data['numberOfWeeks']-1)*0.4);
+          effectiveHTML += "<br/><table class='table table-striped table-bordered table-centered-elements'><tr><td>User</td>";
           winHTML += "<br/><table class='table table-striped table-bordered table-centered-elements'><tr><td>User</td>";
           lossHTML += "<br/><table class='table table-striped table-bordered table-centered-elements'><tr><td>User</td>";
           againstWinHTML += "<br/><table class='table table-striped table-bordered table-centered-elements'><tr><td>User</td>";
@@ -161,11 +164,14 @@ $(document).ready(function(){
 
           for(i in sortedTeams)
           {
+            effectiveHTML += "<td><img src='"+data['teams'][i].img+"'/></td>";
             winHTML += "<td><img src='"+data['teams'][i].img+"'/></td>";
             lossHTML += "<td><img src='"+data['teams'][i].img+"'/></td>";
             againstWinHTML += "<td><img src='"+data['teams'][i].img+"'/></td>";
             againstLossHTML += "<td><img src='"+data['teams'][i].img+"'/></td>";
           }
+
+          effectiveHTML+="</tr>";
           winHTML+="</tr>";
           lossHTML+="</tr>";
           againstWinHTML+="</tr>";
@@ -173,6 +179,7 @@ $(document).ready(function(){
 
           for(k in sortedUsers)
           {
+            effectiveHTML += "<tr><td>"+sortedUsers[k]+"</td>";
             winHTML += "<tr><td>"+sortedUsers[k]+"</td>";
             lossHTML += "<tr><td>"+sortedUsers[k]+"</td>";
             againstWinHTML += "<tr><td>"+sortedUsers[k]+"</td>";
@@ -182,6 +189,15 @@ $(document).ready(function(){
             {
               if(i == "NONE")
                 continue;
+
+                allGames = sortedPicks[i][sortedUsers[k]].win + sortedPicks[i][sortedUsers[k]].pickedAgainstAndWon + sortedPicks[i][sortedUsers[k]].loss + sortedPicks[i][sortedUsers[k]].pickedAgainstAndLost;
+                percentageEffective = (sortedPicks[i][sortedUsers[k]].win + sortedPicks[i][sortedUsers[k]].pickedAgainstAndWon)/allGames;
+                if(percentageEffective >= 0.8)
+                  effectiveHTML+="<td class='success'>"+(Math.round(percentageEffective*100))+"%</td>";
+                else if(percentageEffective >= 0.6)
+                  effectiveHTML+="<td class='warning'>"+(Math.round(percentageEffective*100))+"%</td>";
+                else
+                  effectiveHTML+="<td>"+(Math.round(percentageEffective*100))+"%</td>";
 
                 if(weeksHigh <= sortedPicks[i][sortedUsers[k]].win)
                   winHTML+="<td class='success'>"+sortedPicks[i][sortedUsers[k]].win+"</td>";
@@ -213,22 +229,26 @@ $(document).ready(function(){
 
             }
 
+            effectiveHTML+="</tr>";
             winHTML+="</tr>";
             lossHTML+="</tr>";
             againstWinHTML+="</tr>";
             againstLossHTML+="</tr>";
           }
 
-
+          effectiveHTML+= "</table>";
           winHTML+= "</table>";
           lossHTML+= "</table>";
           againstWinHTML+= "</table>";
           againstLossHTML+= "</table>";
+
+          $("#effective").html(effectiveHTML);
           $("#pickWin").html(winHTML);
           $("#pickLoss").html(lossHTML);
           $("#pickedAgainstAndWon").html(againstWinHTML);
           $("#pickedAgainstAndLost").html(againstLossHTML);
-            $("#analysis").show();
+
+          $("#analysis").show();
 
         },
         failure: function(errMsg) {
