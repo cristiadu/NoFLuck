@@ -196,6 +196,8 @@ $(document).ready(function(){
                   effectiveHTML+="<td class='success'>"+(Math.round(percentageEffective*100))+"%</td>";
                 else if(percentageEffective >= 0.6)
                   effectiveHTML+="<td class='warning'>"+(Math.round(percentageEffective*100))+"%</td>";
+                  else if(percentageEffective <= 0.3)
+                    effectiveHTML+="<td class='danger'>"+(Math.round(percentageEffective*100))+"%</td>";
                 else
                   effectiveHTML+="<td>"+(Math.round(percentageEffective*100))+"%</td>";
 
