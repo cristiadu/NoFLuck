@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node src/app.js",
-    "format-code": "./node_modules/.bin/eslint ./ --fix --ignore-path ./src/public/libs"
+    "format-code": "./node_modules/.bin/eslint \"./src/**\" --fix --ignore-path ./.eslintignore"
   },
   "engines": {
     "node": "5.0.0"
