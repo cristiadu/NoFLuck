@@ -39,6 +39,9 @@ $(document).ready(function () {
           if ((weekMax - weekMin + 1) == countWeek)
             saveJSONFile(jsonGenerated);
 
+        },
+        error: function(err) {
+          console.log(`Error while executing YQL: ${err}`);
         }
       });
 
