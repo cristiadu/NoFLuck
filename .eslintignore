@@ -1,1 +1,4 @@
 src/public/libs/**
+*.css
+*.html
+*.json

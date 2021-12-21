@@ -6,10 +6,25 @@
     "extends": [
         "airbnb-base"
     ],
+    "globals": {
+        "$": true
+    },
     "parserOptions": {
         "ecmaVersion": 13,
         "sourceType": "module"
     },
     "rules": {
+        "no-console": "off",
+        "max-len": [
+            "error",
+            {
+                "code": 140,
+                "tabWidth": 2
+            }
+        ],
+        "semi": [
+            "error",
+            "never"
+        ]
     }
 }

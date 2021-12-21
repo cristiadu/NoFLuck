@@ -1,47 +1,14 @@
-$(document).ready(() => {
-  const jsonGenerated = [];
-  let countWeek;
-  $('#generateJSON').click(() => {
-    countWeek = 0;
-    const weekMin = 52;
-    const weekMax = parseInt($('#weekMax').val()) + 51;
-    for (weekNumber = weekMin; weekNumber <= weekMax; weekNumber++) {
-      $.ajax({
-        url: `https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fgames.espn.go.com%2Fnfl-pigskin-pickem%2F2015%2Fen%2Fscoresheet%3Fperiod%3D${weekNumber}%26groupID%3D90955%22&diagnostics=true`,
-        success(data) {
-          // Get Current week from HTML page
-          const optionsWeekDiv = getElementsByAttribute(data.getElementsByTagName('body')[0], 'div', 'class', 'custom-select')[0];
+/* eslint-disable no-param-reassign */
 
-          const week = getElementsByAttribute(optionsWeekDiv, 'option', 'selected', 'selected')[0];
-          const jsonObj = {};
-          jsonObj.week = week.innerHTML.split(' ')[1];
-          // End of getting week from HTML page
+function getElementsByAttribute(xml, tag, attr, attrValue) {
+  // Get elements and convert to array
+  const elems = Array.prototype.slice.call(xml.getElementsByTagName(tag), 0)
 
-          // Call method to get Which games were played that week
-          const tableScoresheet = getElementsByAttribute(data.getElementsByTagName('body')[0], 'table', 'class', 'tablehead stats2 scoresheet');
-          const gamesElements = getElementsByAttribute(tableScoresheet[0], 'tr', 'class', 'scoresheethead stathead')[0].getElementsByTagName('th');
-          gamesOfWeek(gamesElements, jsonObj);
-          // Got all games from that specific week
+  // Matches an element by its attribute and attribute value
+  const matcher = (el) => el.getAttribute(attr) === attrValue
 
-          // Get which player picked which team on a specific week
-          const playersAndPicks = tableScoresheet[0].getElementsByTagName('tbody')[0];
-          picksOfWeek(playersAndPicks, jsonObj);
-          // Got all picks, finished JSON inclusions for this week.
-
-          jsonGenerated.push(jsonObj);
-
-          // To count ajax requests that answered.
-          countWeek++;
-
-          if ((weekMax - weekMin + 1) == countWeek) saveJSONFile(jsonGenerated);
-        },
-        error(err) {
-          console.log(`Error while executing YQL: ${err}`);
-        },
-      });
-    }
-  });
-});
+  return elems.filter(matcher)
+}
 
 function saveJSONFile(jsonGenerated) {
   $.ajax({
@@ -50,179 +17,192 @@ function saveJSONFile(jsonGenerated) {
     type: 'POST',
     contentType: 'application/json; charset=utf-8',
     dataType: 'json',
-    success(data) { window.location = '/viewAnalysis'; },
+    success() { window.location = '/viewAnalysis' },
     failure(errMsg) {
-      alert(errMsg);
+      console.log(`Error while trying to load analysis: ${errMsg}`)
     },
-  });
-}
-
-function gamesOfWeek(gamesElements, weekObj) {
-  let obj;
-  let jsonObj;
-  weekObj.games = [];
-
-  for (i = 2; i < (gamesElements.length - 3); i++) {
-    jsonObj = {};
-
-    obj = gamesElements[i].getElementsByTagName('img')[0].getAttribute('src').split('.png')[0].split('/').pop();
-    jsonObj.home = {};
-    jsonObj.home.abbrevTeam = obj.toUpperCase();
-    jsonObj.home.img = gamesElements[i].getElementsByTagName('img')[0].getAttribute('src');
-    jsonObj.home.fullTeam = nameTeam(obj);
-
-    obj = gamesElements[i].getElementsByTagName('img')[1].getAttribute('src').split('.png')[0].split('/').pop();
-    jsonObj.vis = {};
-    jsonObj.vis.abbrevTeam = obj.toUpperCase();
-    jsonObj.vis.img = gamesElements[i].getElementsByTagName('img')[1].getAttribute('src');
-    jsonObj.vis.fullTeam = nameTeam(obj);
-
-    weekObj.games.push(jsonObj);
-  }
-}
-
-function picksOfWeek(playersAndPicks, weekObj) {
-  let jsonObj;
-  let pickObj;
-  let aux;
-  weekObj.userPicks = [];
-
-  // Catch each player
-  obj = playersAndPicks.getElementsByTagName('tr');
-
-  for (i = 0; i < obj.length; i++) {
-    // Getting user that made picks
-    jsonObj = {};
-    jsonObj.user = obj[i].getElementsByClassName('games-left')[0].getElementsByTagName('a')[0].innerHTML;
-
-    jsonObj.picks = [];
-    aux = obj[i].getElementsByClassName('pick');
-    for (j = 0; j < aux.length; j++) {
-      pickObj = {};
-
-      if (aux[j].getElementsByTagName('img')[0]) pickObj.pickedTeam = aux[j].getElementsByTagName('img')[0].getAttribute('alt');
-      else pickObj.pickedTeam = 'NONE';
-
-      if (aux[j].getElementsByTagName('span')[0]) pickObj.resultPick = (aux[j].getElementsByTagName('span')[0].getAttribute('class') == 'win') ? 'win' : 'loss';
-      else pickObj.resultPick = 'loss';
-
-      jsonObj.picks.push(pickObj);
-    }
-
-    weekObj.userPicks.push(jsonObj);
-  }
+  })
 }
 
 function nameTeam(abbrev) {
   switch (abbrev) {
     case 'buf':
-      return 'Buffalo Bills';
-      break;
+      return 'Buffalo Bills'
     case 'nyj':
-      return 'New York Jets';
-      break;
+      return 'New York Jets'
     case 'hou':
-      return 'Houston Texans';
-      break;
+      return 'Houston Texans'
     case 'jax':
-      return 'Jaxsonville Jaguars';
-      break;
+      return 'Jaxsonville Jaguars'
     case 'oak':
-      return 'Oakland Raiders';
-      break;
+      return 'Oakland Raiders'
     case 'dal':
-      return 'Dallas Cowboys';
-      break;
+      return 'Dallas Cowboys'
     case 'ari':
-      return 'Arizona Cardinals';
-      break;
+      return 'Arizona Cardinals'
     case 'chi':
-      return 'Chicago Bears';
-      break;
+      return 'Chicago Bears'
     case 'den':
-      return 'Denver Broncos';
-      break;
+      return 'Denver Broncos'
     case 'tam':
-      return 'Tampa Bay Buccaneers';
-      break;
+      return 'Tampa Bay Buccaneers'
     case 'sfo':
-      return 'San Francisco 49ers';
-      break;
+      return 'San Francisco 49ers'
     case 'nwe':
-      return 'New England Patriots';
-      break;
+      return 'New England Patriots'
     case 'stl':
-      return 'St Louis Rams';
-      break;
+      return 'St Louis Rams'
     case 'was':
-      return 'Washington Redskins';
-      break;
+      return 'Washington Redskins'
     case 'sdg':
-      return 'San Diego Chargers';
-      break;
+      return 'San Diego Chargers'
     case 'atl':
-      return 'Atlanta Falcons';
-      break;
+      return 'Atlanta Falcons'
     case 'pit':
-      return 'Pittsburg Steelers';
-      break;
+      return 'Pittsburg Steelers'
     case 'ind':
-      return 'Indianapolis Colts';
-      break;
+      return 'Indianapolis Colts'
     case 'gnb':
-      return 'Green Bay Packers';
-      break;
+      return 'Green Bay Packers'
     case 'cle':
-      return 'Cleveland Browns';
-      break;
+      return 'Cleveland Browns'
     case 'kan':
-      return 'Kansas City Chiefs';
-      break;
+      return 'Kansas City Chiefs'
     case 'sea':
-      return 'Seattle Seahawks';
-      break;
+      return 'Seattle Seahawks'
     case 'mia':
-      return 'Miami Dolphins';
-      break;
+      return 'Miami Dolphins'
     case 'car':
-      return 'Carolina Panthers';
-      break;
+      return 'Carolina Panthers'
     case 'det':
-      return 'Detroit Lions';
-      break;
+      return 'Detroit Lions'
     case 'nor':
-      return 'New Orleans Saints';
-      break;
+      return 'New Orleans Saints'
     case 'cin':
-      return 'Cincinnati Bengals';
-      break;
+      return 'Cincinnati Bengals'
     case 'bal':
-      return 'Baltimore Ravens';
-      break;
+      return 'Baltimore Ravens'
     case 'ten':
-      return 'Tennesee Titans';
-      break;
+      return 'Tennesee Titans'
     case 'nyg':
-      return 'New York Giants';
-      break;
+      return 'New York Giants'
     case 'phi':
-      return 'Philadelphia Eagles';
-      break;
+      return 'Philadelphia Eagles'
     case 'min':
-      return 'Minnesota Vikings';
-      break;
+      return 'Minnesota Vikings'
     default:
+      return ''
   }
 }
 
-function getElementsByAttribute(xml, tag, attr, attrValue) {
-  // Get elements and convert to array
-  const elems = Array.prototype.slice.call(xml.getElementsByTagName(tag), 0);
+function gamesOfWeek(gamesElements, weekObj) {
+  let obj
+  let jsonObj
+  weekObj.games = []
 
-  // Matches an element by its attribute and attribute value
-  const matcher = function (el) {
-    return el.getAttribute(attr) == attrValue;
-  };
+  for (let i = 2; i < (gamesElements.length - 3); i += 1) {
+    jsonObj = {}
 
-  return elems.filter(matcher);
+    obj = gamesElements[i].getElementsByTagName('img')[0].getAttribute('src').split('.png')[0].split('/').pop()
+    jsonObj.home = {}
+    jsonObj.home.abbrevTeam = obj.toUpperCase()
+    jsonObj.home.img = gamesElements[i].getElementsByTagName('img')[0].getAttribute('src')
+    jsonObj.home.fullTeam = nameTeam(obj)
+
+    obj = gamesElements[i].getElementsByTagName('img')[1].getAttribute('src').split('.png')[0].split('/').pop()
+    jsonObj.vis = {}
+    jsonObj.vis.abbrevTeam = obj.toUpperCase()
+    jsonObj.vis.img = gamesElements[i].getElementsByTagName('img')[1].getAttribute('src')
+    jsonObj.vis.fullTeam = nameTeam(obj)
+
+    weekObj.games.push(jsonObj)
+  }
 }
+
+function picksOfWeek(playersAndPicks, weekObj) {
+  let jsonObj
+  let pickObj
+  let aux
+  weekObj.userPicks = []
+
+  // Catch each player
+  const obj = playersAndPicks.getElementsByTagName('tr')
+
+  for (let i = 0; i < obj.length; i += 1) {
+    // Getting user that made picks
+    jsonObj = {}
+    jsonObj.user = obj[i].getElementsByClassName('games-left')[0].getElementsByTagName('a')[0].innerHTML
+
+    jsonObj.picks = []
+    aux = obj[i].getElementsByClassName('pick')
+    for (let j = 0; j < aux.length; j += 1) {
+      pickObj = {}
+
+      if (aux[j].getElementsByTagName('img')[0]) {
+        pickObj.pickedTeam = aux[j].getElementsByTagName('img')[0].getAttribute('alt')
+      } else {
+        pickObj.pickedTeam = 'NONE'
+      }
+
+      if (aux[j].getElementsByTagName('span')[0]) {
+        pickObj.resultPick = (aux[j].getElementsByTagName('span')[0].getAttribute('class') === 'win') ? 'win' : 'loss'
+      } else {
+        pickObj.resultPick = 'loss'
+      }
+
+      jsonObj.picks.push(pickObj)
+    }
+
+    weekObj.userPicks.push(jsonObj)
+  }
+}
+
+/* eslint-disable no-loop-func */
+$(document).ready(() => {
+  const jsonGenerated = []
+  $('#generateJSON').click(() => {
+    let countWeek = 0
+    const weekMin = 52
+    const weekMax = parseInt($('#weekMax').val(), 10) + 51
+    for (let weekNumber = weekMin; weekNumber <= weekMax; weekNumber += 1) {
+      $.ajax({
+        /* eslint-disable max-len */
+        url: `https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fgames.espn.go.com%2Fnfl-pigskin-pickem%2F2015%2Fen%2Fscoresheet%3Fperiod%3D${weekNumber}%26groupID%3D90955%22&diagnostics=true`,
+        /* eslint-enable max-len */
+        success(data) {
+          // Get Current week from HTML page
+          const optionsWeekDiv = getElementsByAttribute(data.getElementsByTagName('body')[0], 'div', 'class', 'custom-select')[0]
+
+          const week = getElementsByAttribute(optionsWeekDiv, 'option', 'selected', 'selected')[0]
+          const jsonObj = {};
+          /* eslint-disable no-undef */
+          [_, jsonObj.week, _] = week.innerHTML.split(' ')
+          /* eslint-enable no-undef */
+          // End of getting week from HTML page
+
+          // Call method to get Which games were played that week
+          const tbScoresheet = getElementsByAttribute(data.getElementsByTagName('body')[0], 'table', 'class', 'tablehead stats2 scoresheet')
+          const gamesElem = getElementsByAttribute(tbScoresheet[0], 'tr', 'class', 'scoresheethead stathead')[0].getElementsByTagName('th')
+          gamesOfWeek(gamesElem, jsonObj)
+          // Got all games from that specific week
+
+          // Get which player picked which team on a specific week
+          const playersAndPicks = tbScoresheet[0].getElementsByTagName('tbody')[0]
+          picksOfWeek(playersAndPicks, jsonObj)
+          // Got all picks, finished JSON inclusions for this week.
+
+          jsonGenerated.push(jsonObj)
+
+          // To count ajax requests that answered.
+          countWeek += 1
+
+          if ((weekMax - weekMin + 1) === countWeek) saveJSONFile(jsonGenerated)
+        },
+        error(err) {
+          console.log(`Error while executing YQL: ${err}`)
+        },
+      })
+    }
+  })
+})
+/* eslint-enable no-loop-func */
