@@ -1,16 +1,16 @@
-var fs = require('fs');
+import { statSync, mkdirSync } from 'fs';
 
 /**
  * Make directory if it doesn't exist already.
  *
  * @param {String} path The path to the directory.
  */
-module.exports.mkdir = function (path) {
+export function mkdir(path) {
     try {
-        fs.statSync(path);
+        statSync(path);
     } catch (e) {
         if (e.code === 'ENOENT') {
-            fs.mkdirSync(path);
+            mkdirSync(path);
         }
     }
-};
+}
