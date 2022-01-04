@@ -2,7 +2,7 @@ import express, { static as StaticLib } from 'express'
 import bodyParser from 'body-parser'
 import path from 'path'
 import methodOverride from 'method-override'
-import routes from './routes'
+import routes from './routes.js'
 
 const { json, urlencoded } = bodyParser
 const currentDir = path.dirname(new URL(import.meta.url).pathname)
